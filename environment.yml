@@ -12,6 +12,7 @@ dependencies:
   - wheel
   - pandas 
   - spacy
+  - ipykernel
   - pip:
     - nltk
     - tqdm
@@ -20,3 +21,10 @@ dependencies:
     
 # - en-core-web-sm
 #- textacy
+
+# to add this env to jupyterlab: 
+
+#$ conda activate nlp_stanza          
+#(nlp_stanza)$ conda install ipykernel
+#(nlp_stanza)$ python -m ipykernel install --user --name=nlp_stanza --display-name "NLP Stanza Env"
+#(nlp_stanza)$ conda deactivate
