@@ -1,3 +1,8 @@
+---
+name: wrds-query
+description: Build a WRDS (Wharton Research Data Services) database query.
+---
+
 Help me build a WRDS (Wharton Research Data Services) query. I need to:
 
 $ARGUMENTS

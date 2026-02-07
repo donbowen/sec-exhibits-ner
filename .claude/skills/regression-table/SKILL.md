@@ -1,3 +1,8 @@
+---
+name: regression-table
+description: Create a publication-quality regression table. Use when the user is setting up regressions, formatting results, or preparing tables for a paper.
+---
+
 Help me create a publication-quality regression table from the current analysis. Consider:
 
 1. **Format**: Use `esttab`/`estout` in Stata or `stargazer`/manual formatting in Python

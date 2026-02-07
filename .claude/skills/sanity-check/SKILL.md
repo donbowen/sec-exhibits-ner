@@ -1,3 +1,8 @@
+---
+name: sanity-check
+description: Review data pipeline or analysis code for integrity issues. Use when writing or reviewing data processing code, merges, or analysis pipelines — especially before finalizing results.
+---
+
 Review the current state of the data pipeline or analysis code I'm working on. Check for:
 
 1. **Data integrity**: Are there merges that might silently drop rows? Filters that could lose data unexpectedly?

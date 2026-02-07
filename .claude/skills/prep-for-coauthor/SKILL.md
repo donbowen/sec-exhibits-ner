@@ -1,3 +1,9 @@
+---
+name: prep-for-coauthor
+description: Prepare code and analysis for sharing with a co-author.
+disable-model-invocation: true
+---
+
 Help me prepare this code/analysis for sharing with a co-author. Review the current project and:
 
 1. **Documentation**: Are notebooks and scripts clearly commented? Would a co-author understand the workflow without a phone call?

@@ -1,3 +1,8 @@
+---
+name: feedback
+description: Offer observations about how we're working together and propose CLAUDE.md improvements. Use roughly every 5-10 substantive interactions, or when recurring patterns, friction, or undocumented preferences are noticed.
+---
+
 Review our recent conversation and provide actionable feedback on how we're working together. Consider:
 
 1. **Patterns**: What kinds of tasks am I asking for repeatedly? Are there shortcuts or defaults we should establish?
