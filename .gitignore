@@ -1,3 +1,43 @@
-.ipynb_checkpoints*
-.DS_store
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+.venv/
+env/
+
+# Data (large files -- track with git LFS or keep out of repo)
+*.dta
+*.csv
+*.parquet
+*.xlsx
+*.xls
+!inputs/.gitkeep
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Credentials
+*credentials*
+*secret*
+*api_key*
 gpt_api.txt
+
+# Claude Code local settings
+.claude/settings.local.json
+CLAUDE.local.md

@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(pip list *)",
+      "Bash(conda *)",
+      "Bash(jupyter *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch*)",
+      "Bash(git checkout*)",
+      "Bash(git stash*)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(head *)",
+      "Bash(tail *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)*",
+      "Read(.env*)",
+      "Read(*credentials*)",
+      "Read(*secret*)",
+      "Read(*api_key*)"
+    ]
+  }
+}
